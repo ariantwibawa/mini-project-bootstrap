@@ -1,0 +1,97 @@
+/* Navbar Start */
+#navbar{
+  background: #f9f9f9;
+}
+#logo{
+  font-size: 36px;
+  font-weight: 550;
+  color: black;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+}
+#logo span{
+  color: #f200ff;
+}
+.navbar-toggler span{
+  color: #f200ff;
+}
+.navbar-nav{
+  margin-left: 20px;
+}
+.nav-item .nav-link{
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  background: #f200ff;
+  color: white;
+}
+#navbar form button{
+  background: #f200ff;
+  color: white;
+  border: none;
+}
+/* Navbar End */
+
+/* Section Book Start */
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  .main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+  }
+  .main-text h1 span{
+    color: #f200ff;
+  }
+  .book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+  }
+  .book .row{
+    margin-top: 30px;
+  }
+  .book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+  }
+  .book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+  }
+  .book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #f200ff;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  .book .submit:hover{
+    width: 170px;
+  }
+  @media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+  }
+  /* Section Book End */
